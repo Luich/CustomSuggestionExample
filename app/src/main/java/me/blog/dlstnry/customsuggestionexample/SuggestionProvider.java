@@ -28,7 +28,7 @@ public class SuggestionProvider extends ContentProvider {
         //테이블을 가지고 Cursor 객체를 만들어야하는데 그럴 때 쓸 수 있는 클래스가 MatrixCursor입니다.
         //생성자에 인자로 전달되는 String 배열은 각 column의 이름입니다.
         //여기서 중요한게 _ID와 SUGGEST_COLUMN_TEXT_1는 검색어 제안에있어 필수항목입니다.
-        //_ID는 row를 특정하기 위한 고유 값입니다.
+        //_ID는 시스템에서 row를 특정하기 위한 고유 값입니다.
         //SUGGEST_COLUMN_TEXT_1는 제안 검색어 리스트에 표시될 텍스트입니다.
         //SUGGEST_COLUMN_TEXT_2는 필수 항목은 아니나 SUGGEST_COLUMN_TEXT_1 밑에 작은 글씨로 나오는
         //텍스트이며 여기선 해당 회사 홈페이지의 주소를 입력하려합니다.
